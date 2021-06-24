@@ -114,28 +114,36 @@ class Website extends React.Component {
               
               <Row>
                 <Col xl="3" className="social-logo-wrapper" sm="6">
-                  <a href="">
+                  <a target="_blank"
+                     rel="noopener noreferrer"
+                     href="https://t.me/cardamonannouncements">
                     <img className="logo-image" src="/logos/telegram-logo.svg" />
                     <h4>Telegram Channel</h4>
                   </a>
                 </Col>
 
                 <Col xl="3" className="social-logo-wrapper" sm="6">
-                  <a href="">
+                  <a target="_blank"
+                     rel="noopener noreferrer"
+                     href="https://t.me/cardamonofficial">
                     <img className="logo-image" src="/logos/telegram-logo.svg" />
                     <h4>Telegram Group</h4>
                   </a>
                 </Col>
 
                 <Col xl="3" className="social-logo-wrapper" sm="6">
-                  <a href="">
+                  <a target="_blank"
+                     rel="noopener noreferrer"
+                     href="https://reddit.com/r/cardamon">
                     <img className="logo-image" src="/logos/reddit-logo2.svg" />
                     <h4>Reddit</h4>
                   </a>
                 </Col>
 
                 <Col xl="3" className="social-logo-wrapper" sm="6">
-                  <a href="">
+                  <a target="_blank"
+                     rel="noopener noreferrer"
+                     href="https://twitter.com/digitalcardamon">
                     <img className="logo-image" src="/logos/twitter-logo2.svg" />
                     <h4>Twitter</h4>
                   </a>
