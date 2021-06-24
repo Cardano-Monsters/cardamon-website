@@ -113,28 +113,28 @@ class Website extends React.Component {
               <br />
               
               <Row>
-                <Col xl="3 social-logo-wrapper">
+                <Col xl="3" className="social-logo-wrapper" sm="6">
                   <a href="">
                     <img className="logo-image" src="/logos/telegram-logo.svg" />
                     <h4>Telegram Channel</h4>
                   </a>
                 </Col>
 
-                <Col xl="3 social-logo-wrapper">
+                <Col xl="3" className="social-logo-wrapper" sm="6">
                   <a href="">
                     <img className="logo-image" src="/logos/telegram-logo.svg" />
                     <h4>Telegram Group</h4>
                   </a>
                 </Col>
 
-                <Col xl="3 social-logo-wrapper">
+                <Col xl="3" className="social-logo-wrapper" sm="6">
                   <a href="">
                     <img className="logo-image" src="/logos/reddit-logo2.svg" />
                     <h4>Reddit</h4>
                   </a>
                 </Col>
 
-                <Col xl="3 social-logo-wrapper">
+                <Col xl="3" className="social-logo-wrapper" sm="6">
                   <a href="">
                     <img className="logo-image" src="/logos/twitter-logo2.svg" />
                     <h4>Twitter</h4>
@@ -149,27 +149,27 @@ class Website extends React.Component {
               <br />
 
               <Row>
-                <Col xl="10">
+                <Col xl="10" sm="6">
                   <Label className="specialFont"y style={{color: "#9b0000", marginBottom: "10px"}}>Sign up to stay up to date</Label>
                 </Col>
-                <Col xl="2"></Col>
+                <Col xl="2" sm="6"></Col>
               </Row>
 
               <Row>
-                <Col xl="10">
+                <Col xl="10" sm="6">
                   <Input type="email" className="form-control" aria-describedby="emailHelp"
                          placeholder="Enter email" />
                 </Col>
-                <Col xl="2" style={{float: "right"}}>
+                <Col xl="2" sm="6" style={{float: "right"}}>
                   <Button size="md" color="success" className="specialFont" className="signup-button" block>Sign Up</Button>
                 </Col>
               </Row>
 
               <Row>
-                <Col xl="10">
+                <Col xl="10" sm="6">
                   <small id="emailHelp" className="form-text specialFont" style={{color: "#131313", textShadow: "none"}}>We will never share your email with anyone else.</small>
                 </Col>
-                <Col xl="2"></Col>
+                <Col xl="2" sm="6"></Col>
               </Row>
 
 

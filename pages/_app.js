@@ -27,6 +27,8 @@ class CardamonApp extends App {
               <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
               <link href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap" rel="stylesheet" />
 
+              <meta name="viewport" content="width=1400, initial-scale=0.66" />
+
           </Head>
 
             <header>

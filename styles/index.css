@@ -4,7 +4,6 @@ body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    min-width: 1400px;
 }
 
 header {
@@ -101,6 +100,14 @@ footer li a {
     height: 300px;
 }
 
+
+.carousel-wrapper {
+    height: 300px;
+    padding-top: 1em;
+    padding-left: 6em;
+    background-size: cover;
+}
+
 .specialFont {
     font-family: 'Sigmar One', cursive;
     color: #f8d79a;
@@ -156,13 +163,6 @@ footer li a {
 
 #about {
     background-image: url('/backgrounds/background4.jpg');
-    background-size: cover;
-}
-
-.carousel-wrapper {
-    height: 300px;
-    padding-top: 1em;
-    padding-left: 2em;
     background-size: cover;
 }
 
