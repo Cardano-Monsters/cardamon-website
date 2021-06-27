@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
-
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: Verdana sans-serif;
+  font-family: 'Sigmar One', cursive;
+  color: #f8d79a;
+  text-shadow: 2px 2px #121212;
 }
 
 a {
@@ -14,4 +14,20 @@ a {
 
 * {
   box-sizing: border-box;
+  font-family: 'Sigmar One', cursive;
+  color: #f8d79a;
+  text-shadow: 2px 2px #121212;
+}
+
+p {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  text-shadow: none;
+  color: #131313;
+}
+
+Input {
+  font-family: 'Sigmar One', cursive;
+  color: #131313;
+  text-shadow: none !important;
 }

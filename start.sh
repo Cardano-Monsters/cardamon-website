@@ -1,1 +1,1 @@
-forever start ./node_modules/.bin/next start
+forever start ./node_modules/.bin/next

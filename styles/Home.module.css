@@ -1,19 +1,85 @@
-.container {
-  min-height: 100vh;
-  padding: 0 0.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+.header {
+  position: fixed;
+  width: 100%;
+  margin-top: -65px;
+  z-index: 999;
+  min-width: 815px;
 }
 
-.main {
-  padding: 5rem 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.footer {
+  width: 100%;
+  height: 55px;
+  background: #131313;
+}
+
+.footer a {
+}
+
+.footer ul {
+  list-style-type: none;
+  margin: 0 20% auto;
+  padding: 0;
+  overflow: hidden;
+  text-align: left;
+  background: #131313;
+}
+
+.footer li {
+  display: inline-block;
+  text-align: left;
+  font-size: 1em;
+}
+
+.footer li a:hover {
+  color: #800000;
+}
+
+.footer li a {
+  display: block;
+  font-weight: bold;
+  color: #f8d79a;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  min-width: 105px;
+}
+
+.navigation {
+  background: #131313;
+  font-family: 'Sigmar One', cursive;
+}
+
+.navigation ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  background-color: #131313;
+}
+
+.navigation li {
+  height: 65px;
+  display: inline-block;
+  text-align: center;
+  font-size: 1.5em;
+  border-bottom: 10px #131313 solid;
+}
+
+.navigation li:hover a {
+  color: #9b0000;
+}
+
+.navigation li a {
+  display: block;
+  color: #f8d79a;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  min-width: 105px;
+}
+
+.navigation li:first-child {
 }
 
 .title a {
@@ -33,7 +99,7 @@
   font-size: 5rem;
   font-family: 'Sigmar One', cursive;
   color: #f8d79a;
-  text-shadow: 2px 2px #121212;
+  text-shadow: 3px 3px #121212;
 }
 
 .title,
@@ -52,7 +118,7 @@
   padding: 0.75rem;
   font-size: 1.1rem;
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+  Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
 .grid {
@@ -106,22 +172,18 @@
   }
 }
 
-.wrapper {
-}
-
 .contentWrapper {
-  min-height: 100%;
-  width: 100%;
+  min-height: 100vh;
+  min-width: 100vw;
   background-size: auto 100%;
   display: block;
 }
 
 .content {
-  width: 65%;
+  width: 80%;
   margin: 0;
   margin: 0 auto;
   padding: 50px 100px 5em;
-
 }
 
 .content h1 {
@@ -130,4 +192,128 @@
 
 .nomargin {
   margin: 0;
+}
+
+.wrapper {
+  margin-top: 65px;
+  width: 100%;
+  min-width: 815px;
+}
+
+.swiper-container {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 300px;
+}
+
+
+.carouselWrapper {
+  height: 300px;
+  padding-top: 1em;
+  padding-left: 6em;
+  background-size: cover;
+}
+
+.socialLogoWrapper {
+  height: 120px;
+  text-align: center;
+  display: block;
+  font-family: 'Sigmar One', cursive;
+}
+
+.socialLogoWrapper:hover {
+  filter: brightness(50%);
+}
+
+.socialLogoWrapper a {
+  color: #9b0000;
+  text-decoration: none;
+}
+
+.logoImage {
+  margin-bottom: 10px;
+  height: 90px;
+}
+
+#socialTitleOld {
+  color: #9b0000;
+  font-size: 4rem;
+  text-align: center;
+  margin-left: 1em;
+}
+
+.home {
+  background-image: url('/backgrounds/background.png');
+  background-size: cover;
+  min-height: 100vh
+}
+
+.ecosystem {
+  background-image: url('/backgrounds/background3.jpg');
+  background-size: cover;
+  min-height: 100vh
+}
+
+.phases {
+  background-image: url('/backgrounds/background4.jpg');
+  background-size: cover;
+  min-height: 100vh
+}
+
+.team {
+  background-image: url('/backgrounds/background3.jpg');
+  background-size: cover;
+  min-height: 100vh
+}
+
+.social {
+  background-image: url('/backgrounds/background4.jpg');
+  background-size: cover;
+  min-height: 100vh
+}
+
+.contact {
+  background-image: url('/backgrounds/background2.jpg');
+  background-size: cover;
+  min-height: 100vh
+}
+
+.signupButton {
+  font-family: 'Sigmar One', cursive;
+  /*color: #9b0000;*/
+  color: #f8d79a;
+  background: green;
+  text-shadow: none;
+}
+.signupButton:hover {
+  color: #f8d79a;
+  filter: brightness(50%);
+}
+
+.blurryBox {
+  overflow: hidden;
+  margin: 0;
+  text-align: left;
+  background: rgba(230, 230, 230, 0.3);
+  border-radius: 90px;
+}
+
+.blurryBox:before {
+  content: "";
+  position: absolute;
+  width : 100%;
+  height: 100%;
+  background: inherit;
+  z-index: -1;
+
+  filter        : blur(10px);
+  -moz-filter   : blur(10px);
+  -webkit-filter: blur(10px);
+  -o-filter     : blur(10px);
+
+  transition        : all 2s linear;
+  -moz-transition   : all 2s linear;
+  -webkit-transition: all 2s linear;
+  -o-transition     : all 2s linear;
 }
