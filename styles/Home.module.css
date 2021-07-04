@@ -8,7 +8,7 @@
 
 .footer {
   width: 100%;
-  height: 55px;
+  height: 120px;
   background: #131313;
 }
 
@@ -17,11 +17,12 @@
 
 .footer ul {
   list-style-type: none;
-  margin: 0 20% auto;
   padding: 0;
   overflow: hidden;
   text-align: left;
   background: #131313;
+  min-width: 150px;
+  margin-right: 25px;
 }
 
 .footer li {
@@ -30,18 +31,34 @@
   font-size: 1em;
 }
 
+.footer li:first-child {
+  color: #f8d79a;
+  margin-bottom: 5px;
+  font-size: 1.1em;
+}
+
+.footer .col-12 {
+  min-width: 150px;
+  margin-right: 25px;
+}
+
 .footer li a:hover {
   color: #800000;
 }
 
-.footer li a {
+.footer a {
   display: block;
   font-weight: bold;
   color: #f8d79a;
   text-align: left;
-  padding: 14px 16px;
   text-decoration: none;
-  min-width: 105px;
+  margin-right: 2em;
+  min-width: 150px;
+}
+
+.footer ul li a {
+  color: #BF4A3F;
+  font-size: 0.95em;
 }
 
 .navigation {
@@ -181,7 +198,6 @@
 
 .content {
   width: 80%;
-  margin: 0;
   margin: 0 auto;
   padding: 50px 100px 5em;
 }
@@ -252,7 +268,7 @@
 .ecosystem {
   background-image: url('/backgrounds/background3.jpg');
   background-size: cover;
-  min-height: 100vh
+  min-height: 100vh;
 }
 
 .phases {
@@ -262,7 +278,7 @@
 }
 
 .team {
-  background-image: url('/backgrounds/background3.jpg');
+  background-image: url('/backgrounds/background.jpg');
   background-size: cover;
   min-height: 100vh
 }
@@ -291,29 +307,65 @@
   filter: brightness(50%);
 }
 
-.blurryBox {
-  overflow: hidden;
-  margin: 0;
-  text-align: left;
-  background: rgba(230, 230, 230, 0.3);
-  border-radius: 90px;
+.ecosystem h4 {
+  color: #BF4A3F;
 }
 
-.blurryBox:before {
-  content: "";
-  position: absolute;
-  width : 100%;
+.ecosystem p {
+  margin-left: 4em;
+  font-family: 'Sigmar One', cursive;
+  /* color: #D9D3D2; */
+  /* color: #A69B03; */
+  color: #D9D3D2;
+  font-size: 18px;
+  text-shadow: 1px 2px #121212;
+}
+
+.ecosystem p u {
+  text-shadow: none;
+  color: #BF7E04;
+}
+
+.ecosystem h4 {
+  font-size: 2em;
+  margin-bottom: .5em;
+}
+
+.ecosystem .blurryBox {
+  background: rgba(53, 130, 106, .5);
+  width: 100%;
   height: 100%;
-  background: inherit;
-  z-index: -1;
+  margin: 0 auto;
+}
 
-  filter        : blur(10px);
-  -moz-filter   : blur(10px);
-  -webkit-filter: blur(10px);
-  -o-filter     : blur(10px);
+.phases .blurryBox {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
 
-  transition        : all 2s linear;
-  -moz-transition   : all 2s linear;
-  -webkit-transition: all 2s linear;
-  -o-transition     : all 2s linear;
+  background: rgba(216, 158, 19, 0.5);
+}
+
+.phases p {
+  font-weight: 700;
+  display: inline;
+  height: 100%;
+  vertical-align: super;
+  color: #1c1c1c;
+  line-height: 1.5em;
+}
+
+.phases img {
+  width: 100%;
+}
+
+.team h5 {
+  line-height: 2em;
+}
+
+.team .blurryBox {
+  background: rgba(53, 50, 106, .5);
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
 }

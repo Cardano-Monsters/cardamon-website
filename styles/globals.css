@@ -20,10 +20,14 @@ a {
 }
 
 p {
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   text-shadow: none;
-  color: #131313;
+  color: #f8d79a;
+;
+}
+
+b {
+  text-shadow: none;
+  color: #f8d79a;
 }
 
 Input {

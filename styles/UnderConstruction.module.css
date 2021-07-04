@@ -130,36 +130,10 @@
   text-align: left;
   margin-left: 1em;
 }
-
-.home {
-  background-image: url('/backgrounds/background.png');
-  background-size: cover;
-}
-
 .social {
   background-image: url('/backgrounds/background4.jpg');
   background-size: cover;
   position: absolute;
   height: 100%;
   width: 100%;
-}
-
-.ecosystem {
-  background-image: url('/backgrounds/background3.jpg');
-  background-size: cover;
-}
-
-.about {
-  background-image: url('/backgrounds/background4.jpg');
-  background-size: cover;
-}
-
-.blurryBox {
-  overflow: hidden;
-  margin: 0;
-  text-align: left;
-  background: rgba(230, 230, 230, 0.2);
-  width : 70%;
-  margin: 0 auto;
-  height: 100%;
 }
